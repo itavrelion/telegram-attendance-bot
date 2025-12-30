@@ -3,8 +3,8 @@ import json
 import datetime
 import os
 
-TOKEN = os.getenv("8518611841:AAHZADDJ9jFEj_ciBE0Gl4SoWmQ21vxz8Fs")
-bot = telebot.TeleBot(TOKEN)
+TOKEN = os.getenv("BOT_TOKEN")
+bot = telebot.TeleBot(8518611841:AAHZADDJ9jFEj_ciBE0Gl4SoWmQ21vxz8Fs)
 
 DATA_FILE = "data.json"
 
